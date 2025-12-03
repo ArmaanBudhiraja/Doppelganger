@@ -6,61 +6,46 @@
 
 @layer base {
   :root {
-    --background: 222 47% 6%;
-    --foreground: 210 40% 98%;
+      --background: 32 25% 10%;
+      --foreground: 35 55% 92%;
 
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
+      --card: 32 20% 14%;
+      --card-foreground: 35 55% 92%;
 
-    --popover: 222 47% 8%;
-    --popover-foreground: 210 40% 98%;
+      --popover: 32 20% 14%;
+      --popover-foreground: 35 55% 92%;
 
-    --primary: 187 100% 50%;
-    --primary-foreground: 222 47% 6%;
+      --primary: 28 75% 55%;              /* Pumpkin Orange */
+      --primary-foreground: 35 60% 98%;
 
-    --secondary: 270 60% 60%;
-    --secondary-foreground: 210 40% 98%;
+      --secondary: 40 70% 60%;            /* Warm Gold */
+      --secondary-foreground: 32 30% 12%;
 
-    --muted: 222 30% 15%;
-    --muted-foreground: 215 20% 55%;
+      --muted: 32 20% 20%;
+      --muted-foreground: 35 30% 70%;
 
-    --accent: 187 80% 40%;
-    --accent-foreground: 210 40% 98%;
+      --accent: 30 80% 50%;               /* Amber */
+      --accent-foreground: 35 60% 98%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+      --destructive: 10 70% 50%;          /* Rusty Red */
+      --destructive-foreground: 33 80% 95%;
 
-    --border: 222 30% 18%;
-    --input: 222 30% 18%;
-    --ring: 187 100% 50%;
+      --border: 32 18% 18%;
+      --input: 32 18% 18%;
+      --ring: 28 75% 55%;
 
-    --radius: 1rem;
+      --radius: 1rem;
 
-    /* Custom design tokens */
-    --neon-cyan: 187 100% 50%;
-    --neon-purple: 270 80% 65%;
-    --neon-pink: 320 80% 60%;
-    --neon-blue: 220 90% 60%;
-    
-    --glass-bg: 222 47% 10%;
-    --glass-border: 222 30% 25%;
-    
-    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-cyan)) 0%, hsl(var(--neon-purple)) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--neon-purple)) 0%, hsl(var(--neon-pink)) 100%);
-    --gradient-dark: linear-gradient(180deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%);
-    
-    --glow-cyan: 0 0 20px hsl(var(--neon-cyan) / 0.5), 0 0 40px hsl(var(--neon-cyan) / 0.3);
-    --glow-purple: 0 0 20px hsl(var(--neon-purple) / 0.5), 0 0 40px hsl(var(--neon-purple) / 0.3);
+      /* Extra autumn tones */
+      
+      --glass-bg: 32 25% 12%;
+      --glass-border: 32 20% 25%;
 
-    --sidebar-background: 222 47% 6%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 187 100% 50%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 222 30% 15%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 222 30% 18%;
-    --sidebar-ring: 187 100% 50%;
-  }
+      --gradient-primary: linear-gradient(135deg, hsl(28 75% 55%), hsl(40 70% 60%));
+      --gradient-secondary: linear-gradient(135deg, hsl(40 70% 60%), hsl(30 80% 50%));
+      --gradient-dark: linear-gradient(180deg, hsl(32 25% 10%), hsl(32 25% 6%));
+    }
+
 
   .dark {
     --background: 222 47% 6%;
